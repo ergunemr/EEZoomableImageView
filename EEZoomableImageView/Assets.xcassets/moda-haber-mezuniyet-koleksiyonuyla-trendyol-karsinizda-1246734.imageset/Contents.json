@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "moda-haber-mezuniyet-koleksiyonuyla-trendyol-karsinizda-1246734.jpg",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "moda-haber-mezuniyet-koleksiyonuyla-trendyol-karsinizda-1246735.jpg",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "moda-haber-mezuniyet-koleksiyonuyla-trendyol-karsinizda-1246736.jpg",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
