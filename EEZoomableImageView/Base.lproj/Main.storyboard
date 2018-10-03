@@ -12,7 +12,7 @@
         <!--Parrots-->
         <scene sceneID="KB8-Zr-udi">
             <objects>
-                <viewController id="Eqe-ef-kJc" customClass="ParrotListViewController" customModule="ZoomableImageView" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Eqe-ef-kJc" customClass="ParrotListViewController" customModule="EEZoomableImageView" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ALT-4R-iDU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,12 +64,12 @@
         <!--Big Image View Controller-->
         <scene sceneID="Yaf-VT-wOT">
             <objects>
-                <viewController id="gtc-Gw-275" customClass="BigImageViewController" customModule="ZoomableImageView" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="gtc-Gw-275" customClass="BigImageViewController" customModule="EEZoomableImageView" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7gQ-BK-Scr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xlN-S3-Rym" customClass="EEZoomableImageView" customModule="ZoomableImageView" customModuleProvider="target">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xlN-S3-Rym" customClass="EEZoomableImageView" customModule="EEZoomableImageView" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="64" width="375" height="450"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="xlN-S3-Rym" secondAttribute="height" multiplier="1:1.2" id="3Qj-E2-kwC"/>
@@ -85,7 +85,7 @@
                         <viewLayoutGuide key="safeArea" id="dhe-zX-T60"/>
                     </view>
                     <connections>
-                        <outlet property="bigPhotoImageView" destination="xlN-S3-Rym" id="7oe-sh-sET"/>
+                        <outlet property="bigPhotoImageView" destination="xlN-S3-Rym" id="qh5-un-mvp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UkF-Uc-XLL" userLabel="First Responder" sceneMemberID="firstResponder"/>

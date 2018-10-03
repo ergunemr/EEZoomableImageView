@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		67E7ACBC2165661900DCBDA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E7ACBB2165661900DCBDA9 /* AppDelegate.swift */; };
-		67E7ACBE2165661900DCBDA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E7ACBD2165661900DCBDA9 /* ViewController.swift */; };
 		67E7ACC12165661900DCBDA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67E7ACBF2165661900DCBDA9 /* Main.storyboard */; };
 		67E7ACC32165661A00DCBDA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67E7ACC22165661A00DCBDA9 /* Assets.xcassets */; };
 		67E7ACC62165661A00DCBDA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67E7ACC42165661A00DCBDA9 /* LaunchScreen.storyboard */; };
@@ -16,13 +15,12 @@
 		67E7ACD22165663A00DCBDA9 /* ParrotPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67E7ACCF2165663A00DCBDA9 /* ParrotPhotoCollectionViewCell.xib */; };
 		67E7ACD32165663A00DCBDA9 /* ParrotPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E7ACD02165663A00DCBDA9 /* ParrotPhotoCollectionViewCell.swift */; };
 		67E7ACD62165664400DCBDA9 /* EEZoomableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E7ACD52165664400DCBDA9 /* EEZoomableImageView.swift */; };
-		67E7ACD82165666300DCBDA9 /* BigImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E7ACD72165666300DCBDA9 /* BigImageViewController.swift */; };
+		67E7ACDA2165689A00DCBDA9 /* BigImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E7ACD72165666300DCBDA9 /* BigImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		67E7ACB82165661900DCBDA9 /* EEZoomableImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EEZoomableImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E7ACBB2165661900DCBDA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		67E7ACBD2165661900DCBDA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		67E7ACC02165661900DCBDA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		67E7ACC22165661A00DCBDA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67E7ACC52165661A00DCBDA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -65,9 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				67E7ACBB2165661900DCBDA9 /* AppDelegate.swift */,
-				67E7ACBD2165661900DCBDA9 /* ViewController.swift */,
-				67E7ACCD2165663A00DCBDA9 /* ParrotListViewController.swift */,
-				67E7ACD72165666300DCBDA9 /* BigImageViewController.swift */,
+				67E7ACD92165679400DCBDA9 /* View Controllers */,
 				67E7ACD42165664400DCBDA9 /* EEZoomableImageView */,
 				67E7ACCE2165663A00DCBDA9 /* ParrotPhotoCollectionViewCell */,
 				67E7ACBF2165661900DCBDA9 /* Main.storyboard */,
@@ -93,6 +89,15 @@
 				67E7ACD52165664400DCBDA9 /* EEZoomableImageView.swift */,
 			);
 			path = EEZoomableImageView;
+			sourceTree = "<group>";
+		};
+		67E7ACD92165679400DCBDA9 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				67E7ACCD2165663A00DCBDA9 /* ParrotListViewController.swift */,
+				67E7ACD72165666300DCBDA9 /* BigImageViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,9 +172,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67E7ACDA2165689A00DCBDA9 /* BigImageViewController.swift in Sources */,
 				67E7ACD12165663A00DCBDA9 /* ParrotListViewController.swift in Sources */,
-				67E7ACD82165666300DCBDA9 /* BigImageViewController.swift in Sources */,
-				67E7ACBE2165661900DCBDA9 /* ViewController.swift in Sources */,
 				67E7ACD62165664400DCBDA9 /* EEZoomableImageView.swift in Sources */,
 				67E7ACBC2165661900DCBDA9 /* AppDelegate.swift in Sources */,
 				67E7ACD32165663A00DCBDA9 /* ParrotPhotoCollectionViewCell.swift in Sources */,
