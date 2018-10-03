@@ -53,9 +53,7 @@ class EEZoomableImageView: UIImageView {
     var isZoomingActive: Bool {
         get {
             return pinchZoomHandler.isZoomingActive
-        } set {
-            pinchZoomHandler.isZoomingActive = newValue
-        }
+        } set { }
     }
     
     // MARK: Private Initializations
