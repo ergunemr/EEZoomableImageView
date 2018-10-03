@@ -3,7 +3,7 @@
 **Provides full screen zooming ability to UIImageView like instagram.**
 
 
-![](https://media.giphy.com/media/oysCUWJjGED562VLTK/giphy.gif)||![](https://media.giphy.com/media/2xPVtD4NxAfqj5HQpI/giphy.gif)
+![](https://media.giphy.com/media/oysCUWJjGED562VLTK/giphy.gif) | ![](https://media.giphy.com/media/2xPVtD4NxAfqj5HQpI/giphy.gif)
 
 ## What does EEZoomableImageView do?
 Gives full screen zooming ability to UIImageView with no additional code.
