@@ -9,8 +9,8 @@
 ## <br/>What does EEZoomableImageView do?
 Gives full screen zooming ability to UIImageView with no additional code.
 
-![](https://i.hizliresim.com/pnlg2r.gif)
-![](https://i.hizliresim.com/8zAgLn.gif)
+![](https://media.giphy.com/media/2A8wnov0yHo8Mm7y8E/giphy.gif)
+![](https://media.giphy.com/media/9JnSK6WDP9wG47m8XU/giphy.gif)
 
 It handles number of the touch changes on the screen. There is no weird behaviour like jumping image's center when user removes one finger from the screen, as far as I know. :squirrel:
 
