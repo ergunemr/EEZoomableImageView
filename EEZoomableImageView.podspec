@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "EEZoomableImageView"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "Provides full screen zoom feature to image view like instagram. "
 
   s.homepage     = "https://github.com/ergunemr/EEZoomableImageView"
