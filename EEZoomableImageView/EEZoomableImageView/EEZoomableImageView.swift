@@ -8,7 +8,7 @@
 
 import UIKit
 
-class EEZoomableImageView: UIImageView {
+public class EEZoomableImageView: UIImageView {
     
     private var pinchZoomHandler: PinchZoomHandler!
     
@@ -87,7 +87,7 @@ class EEZoomableImageView: UIImageView {
     }
 }
 
-protocol ZoomingDelegate: class {
+public protocol ZoomingDelegate: class {
     func pinchZoomHandlerStartPinching()
     func pinchZoomHandlerEndPinching()
 }
