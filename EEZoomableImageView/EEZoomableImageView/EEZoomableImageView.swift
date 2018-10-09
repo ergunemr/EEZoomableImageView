@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class EEZoomableImageView: UIImageView {
+open class EEZoomableImageView: UIImageView {
     
     private var pinchZoomHandler: PinchZoomHandler!
     
@@ -76,7 +76,7 @@ public class EEZoomableImageView: UIImageView {
         commonInit()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
         commonInit()
