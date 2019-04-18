@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.framework = "UIKit"
 
-  s.swift_version = "3.0"
+  s.swift_version = "5.0"
 
   s.requires_arc = true
 
